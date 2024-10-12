@@ -10,3 +10,7 @@ Volumen: persistencia
 Reverse proxy: More here https://github.com/dgtlmoon/changedetection.io/wiki/Running-changedetection.io-behind-a-reverse-proxy-sub-directory (en la wiki)
 Ojo en reverse proxy: proxy_set_header Host "localhost"; -> cambiar por proxy_set_header Host $host;
 Simplemente docker compose up -d
+
+Para gmail tienes que usar:
+mailto://{usser}:{app password}@gmail.com
+(Ahora ya no vale con la password de la cuenta tienes que crear app password) -> necesitas tener la doble autenticación en gmail
