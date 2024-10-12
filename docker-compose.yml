@@ -10,6 +10,7 @@ services:
                - PORT=3001
                #Respect proxy_pass type settings, `proxy_set_header Host "localhost";` and `proxy_set_header X-Forwarded-Prefix /app;`
                #More here https://github.com/dgtlmoon/changedetection.io/wiki/Running-changedetection.io-behind-a-reverse-proxy-sub-directory
+               - BASE_URL=https://servicios-ging.dit.upm.es/wachete/
           ports:
                - 3001:3001
 
