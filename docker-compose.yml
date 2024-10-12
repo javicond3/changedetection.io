@@ -13,8 +13,8 @@ services:
                # - BASE_URL=https://servicios-ging.dit.upm.es/wachete/
                # Respect proxy_pass type settings, `proxy_set_header Host "localhost";` and `proxy_set_header X-Forwarded-Prefix /app;`
                - USE_X_SETTINGS=1
-          ports:
-               - 3001:3001
+          # ports:
+          #      - 3001:3001
 
 
           networks:

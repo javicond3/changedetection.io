@@ -7,5 +7,6 @@ https://github.com/caronc/apprise/wiki/Notify_slack: crear app
 Se puede configurar una contraseña para entrar en la app en settings (solo una) 
 Se pueden exportar los wachete para poder importarlos luego también
 Volumen: persistencia
-Reverse proxy: More here https://github.com/dgtlmoon/changedetection.io/wiki/Running-changedetection.io-behind-a-reverse-proxy-sub-directory
+Reverse proxy: More here https://github.com/dgtlmoon/changedetection.io/wiki/Running-changedetection.io-behind-a-reverse-proxy-sub-directory (en la wiki)
+Ojo en reverse proxy: proxy_set_header Host "localhost"; -> cambiar por proxy_set_header Host $host;
 Simplemente docker compose up -d
