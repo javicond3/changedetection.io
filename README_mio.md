@@ -8,3 +8,4 @@ Se puede configurar una contraseña para entrar en la app en settings (solo una)
 Se pueden exportar los wachete para poder importarlos luego también
 Volumen: persistencia
 Reverse proxy: More here https://github.com/dgtlmoon/changedetection.io/wiki/Running-changedetection.io-behind-a-reverse-proxy-sub-directory
+Simplemente docker compose up -d
