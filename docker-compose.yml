@@ -17,8 +17,8 @@ services:
         - TZ=Europe/Madrid
 
       # Comment out ports: when using behind a reverse proxy , enable networks: etc.
-      ports:
-        - 3001:3001
+      # ports:
+      #   - 3001:3001
       networks:
         - martell
       restart: unless-stopped
@@ -45,7 +45,8 @@ services:
 
     browser-selenium-chrome:
         hostname: browser-selenium-chrome
-        image: seleniarm/standalone-chromium:4.0.0-20211213
+        #image: seleniarm/standalone-chromium:4.0.0-20211213 #image for arm64
+        image: selenium/standalone-chrome:4 #image for amd64
         environment:
             - VNC_NO_PASSWORD=1
             - SCREEN_WIDTH=1920
