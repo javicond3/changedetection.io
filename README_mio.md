@@ -26,20 +26,22 @@ Volumen: persistencia, ahora mismo en ./datastore. Simplemente tienes que export
 
 
 # Configurar RENFE
+
+Poner 30 segundos en la carga al activar browser en cada wachete
+
 document.getElementsByName('desOrigen')[0].value = "MADRID (TODAS)"
 document.getElementsByName('cdgoOrigen')[0].value = "0071,MADRI,null"
 
 document.getElementsByName('cdgoDestino')[0].value = "0071,22100,22100"
 document.getElementsByName('desDestino')[0].value = "OURENSE"
 
-document.getElementsByName('FechaIdaSel')[0].value = '17/04/2025'
-document.getElementsByName('FechaVueltaSel')[0].value = '17/04/2025'
+document.getElementsByName('FechaIdaSel')[0].value = '11/06/2025'
+document.getElementsByName('FechaVueltaSel')[0].value = '11/06/2025'
 
 
 document.getElementsByName('FechaIdaSel')[0].parentElement.parentElement.submit()
 
+Poner también 30 segundos de espera en la carga tras el submit (wait for seconds)
 
-- Poner 10 segundos en la carga de la primera
-- Poner también 10 segundos de espera en la carga tras el submit
 
 Una vez configurado y triggeado por primera vez puedes seleccionar que parte queires que visualice el wachete
